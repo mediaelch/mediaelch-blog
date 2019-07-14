@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog | MediaElch</title>
-    <link>http://mediaelch.github.io/mediaelch-blog/posts/</link>
+    <link>https://mediaelch.github.io/mediaelch-blog/posts/</link>
     <description>Recent content in Posts on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MediaElch 2.4.1</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</guid>
       <description>MediaElch 2.4.1 is ready for download!
 A complete list of all improvements and bugfixes can be found at the downloads page.
 As usual I’d like to thank all donators and translators! If you would also like to support the development of MediaElch you can help with a little donation.</description>
@@ -24,20 +24,20 @@ As usual I’d like to thank all donators and translators! If you would also lik
     
     <item>
       <title>MediaElch 2.4 – Talax</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</guid>
       <description>MediaElch 2.4 is ready and brings a lot of improvements and new features.
 TV Shows One of the most important new features in MediaElch 2.4 is bulk/mass scraping of tv shows and episodes. MediaElch is now able to scrape multiple tv shows at once. There is also a new IMDB scraper for tv shows. You can even setup your custom tv scraper in the settings: Load ratings and votes from IMDB and everything else from TheTVDB with a single click.</description>
     </item>
     
     <item>
       <title>MediaElch - &#34;The next big thing&#34;</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</link>
       <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</guid>
       <description>While MediaElch 2.4 is just around the corner and brings a lot of improvements and some nice new features (have a look at the downloads page for a list of changes), I’m already thinking about the next big feature which will find its way into MediaElch.
 Right now I have three things in mind:
 1. Music file tagging and renaming MediaElch is already able to scrape information and images of artists and albums.</description>
@@ -45,10 +45,10 @@ Right now I have three things in mind:
     
     <item>
       <title>MediaElch 2.3.2 – Denobula</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</link>
       <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</guid>
       <description>The next MediaElch update is available for download.
 Many smaller improvements and bugfixes have made it into this version as well as coverlib.com as source for album covers and booklets. Booklets provided there are in most cases scans of a double side in a single image. MediaElch now has an option to cut this covers in two pieces (just click on the little scissors below the image).
 My thanks go out to all the supporters of MediaElch!</description>
@@ -56,10 +56,10 @@ My thanks go out to all the supporters of MediaElch!</description>
     
     <item>
       <title>MediaElch 2.2.2</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</guid>
       <description>A shiny new MediaElch release is available for download.
 It looks like music scraping is working really fine but it still needs some tuning. This release fixes some little bugs in conjunction with music scraping.
 Thanks to all supporters of MediaElch. Stay tuned, there’s more to come!</description>
@@ -67,20 +67,20 @@ Thanks to all supporters of MediaElch. Stay tuned, there’s more to come!</desc
     
     <item>
       <title>MediaElch 2.2 – Sphere Builder</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</link>
       <pubDate>Fri, 23 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</guid>
       <description>I know it’s been a (too) long time since the last MediaElch release. I was quite busy last year setting up my own business and wanted the next release to contain a often requested feature. I finally found some time during the holidays and the last weeks to finish it: Music library management and scraping!
 MediaElch now allows you to scrape your artists and albums. Although it’s not completely done and may contain some little glitches it is already usable.</description>
     </item>
     
     <item>
       <title>MediaElch 2.1.2</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</guid>
       <description>MediaElch 2.1.2 fixes some bugs which appeared in MediaElch 2.1 and 2.1.1. Especially the bug that dialogs showed up outside the desktops on Windows was fixed.
 Some minor improvements were also integrated: Stream details are now available in export templates and new filters for audio qualities and channels were added.
 Movie, tv show and concert lists show up the number of items now.
@@ -89,10 +89,10 @@ My thanks go out to all donators and supporters of MediaElch!</description>
     
     <item>
       <title>MediaElch 2.1 - Trill &amp; Community Forums</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</link>
       <pubDate>Sun, 16 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</guid>
       <description>MediaElch 2.1 is now ready for downloads. There are some bugfixes, small improvements and also some new features in this version. A complete list of all changes can be found in the download area.
 Labels LabelsMovies can now be marked with a colored label. These labels can also be filtered.
 Make MKV MediaElchs import function was improved to use MakeMKV (MakeMKV needs to be installed separately). You are now able to import BluRays and DVDs directly into your collection.</description>
@@ -100,20 +100,20 @@ Make MKV MediaElchs import function was improved to use MakeMKV (MakeMKV needs t
     
     <item>
       <title>MediaElch 2.0 – Risa</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</link>
       <pubDate>Mon, 28 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</guid>
       <description>MediaElch 2.0 is available for download. Among bugfixes and little improvements (have a look at the Changelog for a complete list) there are also some nice new features:
 Adult Scrapers One of the most requested features were adult scrapers in MediaElch. They are available now: AEBN, HotMovies and Adult DVD Empire can be used. These scrapers need to be enabled manually in the settings (Settings -&amp;gt; Scraper -&amp;gt; Adult Scrapers).</description>
     </item>
     
     <item>
       <title>MediaElch 1.7 – Bajor</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</link>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</guid>
       <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.
 But there are also three things I want to show you:
 Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
@@ -121,10 +121,10 @@ Collection Export Starting with Bajor you can export your whole collection as HT
     
     <item>
       <title>HTML Export</title>
-      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</link>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</link>
       <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</guid>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</guid>
       <description>The next version of MediaElch will have the option to export your whole library as html files. It will be possible to create your own export theme. As you can see in the screenshot I’m not a designer and there’s much room for improvement. It would be great if someone wants to create one or more themes for the export. The files are only plain html/css with some placeholders so you only need some knowledge of html/css :)</description>
     </item>
     
