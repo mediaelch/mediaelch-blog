@@ -1,4 +1,4 @@
-baseurl = "http://mediaelch.github.io/mediaelch-blog" # Hostname (and path) to the root.
+baseurl = "https://mediaelch.github.io/mediaelch-blog/" # Hostname (and path) to the root.
 title = "Blog | MediaElch" # Site title.
 theme = "mediaelch-coder"
 

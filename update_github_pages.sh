@@ -7,6 +7,7 @@ IFS=$'\n\t'
 # get a clean master branch
 git checkout master
 git pull origin master
+git submodule update --init
 git clean -df
 git checkout -- .
 git fetch --all
