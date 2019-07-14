@@ -1,0 +1,3 @@
+[submodule "themes/mediaelch-coder"]
+	path = themes/mediaelch-coder
+	url = https://github.com/mediaelch/mediaelch-blog-theme.git

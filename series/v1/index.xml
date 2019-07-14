@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>v1 on Blog | MediaElch</title>
+    <link>http://mediaelch.github.io/mediaelch-blog/series/v1/</link>
+    <description>Recent content in v1 on Blog | MediaElch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mediaelch.github.io/mediaelch-blog/series/v1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MediaElch 1.7 – Bajor</title>
+      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</link>
+      <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</guid>
+      <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.
+But there are also three things I want to show you:
+Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
+    </item>
+    
+    <item>
+      <title>HTML Export</title>
+      <link>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</guid>
+      <description>The next version of MediaElch will have the option to export your whole library as html files. It will be possible to create your own export theme. As you can see in the screenshot I’m not a designer and there’s much room for improvement. It would be great if someone wants to create one or more themes for the export. The files are only plain html/css with some placeholders so you only need some knowledge of html/css :)</description>
+    </item>
+    
+  </channel>
+</rss>
