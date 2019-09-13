@@ -12,7 +12,9 @@ You can find the blog here: https://mediaelch.github.io/mediaelch-blog/
 Download and install [Hugo Extended](https://gohugo.io/getting-started/installing/) .
 
 ```sh
+git clone https://github.com/mediaelch/mediaelch-blog.git
 cd mediaelch-blog
+git submodule update --init
 hugo        # builds the blog
 hugo server # or serve the blog on localhost:1313/mediaelch-blog/
 ```
