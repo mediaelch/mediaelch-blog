@@ -36,7 +36,7 @@ of MediaElch to allow easier collaboration by new developers.
 Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm) (finally!).
 
-## How can I get help?
+## Where can I get help?
 For general question use Kodi forums, e.g.
 
   - [English] https://forum.kodi.tv/showthread.php?tid=136333
@@ -44,11 +44,11 @@ For general question use Kodi forums, e.g.
 
 If you find a bug, please open an issue on https://github.com/Komet/MediaElch/issues
 
-## How can I contribute?
+## Can I contribute?
 Yes! Every kind of help is welcome. You can translate MediaElch or develop and fix some bugs if you know C++.
 If you find any bugs, please report them on GitHub or here.
 
-Check out the full changelog at https://mediaelch.github.io/mediaelch-do...notes.html
+Check out the full changelog at https://mediaelch.github.io/mediaelch-doc/release-notes.html#ferenginar-2019-01-06
 
 ## Known bugs
 The macOS version may crash on macOS due to a bug in the Qt framework.
