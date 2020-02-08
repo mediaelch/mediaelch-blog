@@ -1,5 +1,5 @@
 +++
-date = "2020-02-16"
+date = "2020-02-08"
 title = "MediaElch 2.6.4 - Ferenginar"
 description = "New release of MediaElch."
 slug = "mediaelch-v2.6.4"
