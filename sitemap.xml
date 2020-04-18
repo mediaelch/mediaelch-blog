@@ -4,43 +4,48 @@
   
   <url>
     <loc>https://mediaelch.github.io/mediaelch-blog/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mediaelch.github.io/mediaelch-blog/categories/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mediaelch.github.io/mediaelch-blog/posts/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mediaelch.github.io/mediaelch-blog/categories/release/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mediaelch.github.io/mediaelch-blog/series/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mediaelch.github.io/mediaelch-blog/series/v2/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mediaelch.github.io/mediaelch-blog/posts/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mediaelch.github.io/mediaelch-blog/categories/release/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mediaelch.github.io/mediaelch-blog/series/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mediaelch.github.io/mediaelch-blog/series/v2/</loc>
-    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

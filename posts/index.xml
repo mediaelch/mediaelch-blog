@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MediaElch 2.6.6 - Ferenginar</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/</guid>
+      <description>The next stable version 2.6.6 is here!
+What&amp;rsquo;s new? Two months since the last stable release, this one is a huge bugfix release.
+Better Actor Images from IMDb Due to a change on IMDB&amp;rsquo;s site, images of actors only had a resolution of 32×44px. The scraper now loads each actor&amp;rsquo;s IMDb page and scrapes the image in high resolution of about 600×1000px. This also means that it will take longer to scrape a movie with actors from IMDb.</description>
+    </item>
     
     <item>
       <title>MediaElch 2.6.4 - Ferenginar</title>
