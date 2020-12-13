@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | MediaElch</title>
@@ -6,10 +6,22 @@
     <description>Recent content on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MediaElch 2.8.0 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/</guid>
+      <description>The next version 2.8.0 named &amp;ldquo;Coridian&amp;rdquo; is finally here!
+What&amp;rsquo;s new? This version fixes many bugs, has multiple small improvements to the user interface and and has a massively improved TV scraper.
+TV Scrapers MediaElch&amp;rsquo;s TV scrapers have been rewritten from the bottom. This makes it possible to distinguish episode details from TV show details. Don&amp;rsquo;t want to load the episode&amp;rsquo;s overview but the show&amp;rsquo;s overview? Now it&amp;rsquo;s possible!
+For meta information, MediaElch no longer depends on TheTvDb and it&amp;rsquo;s now easier to add new TV scrapers.</description>
+    </item>
     
     <item>
       <title>MediaElch 2.6.6 - Ferenginar</title>

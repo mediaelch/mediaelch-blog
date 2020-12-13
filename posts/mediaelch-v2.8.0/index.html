@@ -10,27 +10,27 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MediaElch 2.6.2 - Ferenginar"/>
+<meta name="twitter:title" content="MediaElch 2.8.0 - Coridian"/>
 <meta name="twitter:description" content="New release of MediaElch."/>
 
-    <meta property="og:title" content="MediaElch 2.6.2 - Ferenginar" />
+    <meta property="og:title" content="MediaElch 2.8.0 - Coridian" />
 <meta property="og:description" content="New release of MediaElch." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/" />
-<meta property="article:published_time" content="2019-09-13T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-09-13T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/" />
+<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/" />
+<meta property="article:published_time" content="2020-12-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-13T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/" />
 
 
 
     
-      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/">
+      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/">
     
     <title>
-  MediaElch 2.6.2 - Ferenginar · Blog | MediaElch
+  MediaElch 2.8.0 - Coridian · Blog | MediaElch
 </title>
 
     
-      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/">
+      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -94,19 +94,19 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">MediaElch 2.6.2 - Ferenginar</h1>
+          <h1 class="title">MediaElch 2.8.0 - Coridian</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2019-09-13T00:00:00Z'>
-                September 13, 2019
+              <time datetime='2020-12-13T00:00:00Z'>
+                December 13, 2020
               </time>
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2 minutes read
+              3 minutes read
             </span>
           </div>
           <div class="categories">
@@ -118,31 +118,67 @@
       </header>
 
       <div>
-        <p>The next stable version 2.6.2 is finally here!</p>
+        <p>The next version 2.8.0 named &ldquo;Coridian&rdquo; is finally here!</p>
 <h2 id="whats-new">What&rsquo;s new?</h2>
-<p>This version fixes multiple bugs and many small improvements.
-A lot of race-conditions and possible crashes were fixed so that MediaElch
-should now run without issues.</p>
-<p>MediaElch now also as a blog! You can find it at:
-<a href="https://mediaelch.github.io/mediaelch-blog/posts/">https://mediaelch.github.io/mediaelch-blog/posts/</a></p>
-<h2 id="support-of-multiple-kodi-versions">Support of multiple Kodi versions</h2>
-<p>You can now choose the Kodi Version for which MediaElch should generate NFO files.
-The previous versions were not compatible with Kodi v17 and v18 which has now been fixed.
-MediaElch now uses the new ID format (<code>&lt;uniqueid&gt;</code>) and has updated other tags.</p>
-<p>You can choose Kodi&rsquo;s version in MediaElch&rsquo;s settings:</p>
-<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.6.2/MediaElch_v2.6.2_Kodi_Version.png" alt="MediaElch on KDE Breeze Dark"></p>
-<h2 id="internal-changes">Internal Changes</h2>
-<p><em>Attention developers</em>: We now use <a href="https://cmake.org/">CMake</a> as our primary build system!
-We also switched from <code>QList&lt;T&gt;</code> to <code>QVector&lt;T&gt;</code> as our default container type.
-This made some painful bugs visible which this version fix.
-Google&rsquo;s address sanitizer is now used to build and test MediaElch and we recommend using it.</p>
-<p>Package maintainers can now use the <code>DISABLE_UPDATER</code> and <code>USE_EXTERN_QUAZIP</code> build flags
-to distribute MediaElch in a way that is compatible with packaging guidelines.</p>
-<p>We now also have more and better documentation for new contributors.<br>
-You can find it at <a href="https://github.com/Komet/MediaElch/tree/master/docs/contributing">https://github.com/Komet/MediaElch/tree/master/docs/contributing</a></p>
-<h2 id="whats-next">What&rsquo;s next?</h2>
-<p>We will continue to improve MediaElch. No huge features are planned at the moment.
-The next version will finally use TheTVDb API v2 which didn&rsquo;t make it into this version.</p>
+<p>This version fixes many bugs, has multiple small improvements to the
+user interface and and has a massively improved TV scraper.</p>
+<h2 id="tv-scrapers">TV Scrapers</h2>
+<p>MediaElch&rsquo;s TV scrapers have been rewritten from the bottom.  This makes it
+possible to distinguish episode details from TV show details.  Don&rsquo;t want to
+load the episode&rsquo;s overview but the show&rsquo;s overview? Now it&rsquo;s possible!</p>
+<p>For meta information, MediaElch no longer depends on TheTvDb and it&rsquo;s now
+easier to add new TV scrapers.
+In earlier versions the usage of TheTvDb was hard-coded into MediaElch.
+That is no longer the case for meta information.</p>
+<p>We have also improved the integration of IMDb as well as TMDb.</p>
+<h3 id="tmdb-for-tv-shows">TMDb for TV shows</h3>
+<p>Kodi already supports TMDb for TV shows but MediaElch did not.  With the new
+TV scraper functionality we&rsquo;ve also added support for TMDb.  Use their
+blazing-fast API for scraping your TV shows became a lot easier.</p>
+<h3 id="custom-tv-scraper">Custom TV scraper</h3>
+<p>The custom TV scraper now depends on TMDb. We load IMDb and TheTvDb IDs from
+their site.  So please be aware that shows must be available on TMDb for
+it to work.</p>
+<h3 id="improved-tv-scraper-dialog">Improved TV scraper dialog</h3>
+<p>We restructured the user interface for scraping TV shows and episodes.
+The right side now distinguishes TV show details from episode details.</p>
+<p>Details are only selectable if the scraper supports them and if you have chosen
+an update-type which uses those details.  For example you won&rsquo;t be able to
+select episode details if you only want to update the TV show.</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.0/MediaElch_v2.8.0_TV_scraper_dialog.png" alt="MediaElch Error Box"></p>
+<h3 id="improved-tv-scraper-settings">Improved TV scraper settings</h3>
+<p>Don&rsquo;t forget that MediaElch only uses external services and website to scrape
+data.  The new settings tab for TV scrapers points you to each scraper&rsquo;s terms
+of service, privacy policy, website and help page and gives you a short
+description.</p>
+<p>Note that some scrapers need to be initialized before they can be used.
+MediaElch does so automatically but if experience issues when you scrape your
+shows, have a look whether the scraper is initialized.</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.0/MediaElch_v2.8.0_TV_scraper_settings.png" alt="MediaElch Error Box"></p>
+<h3 id="on-thetvdb">On TheTvDb</h3>
+<p>TheTvDb has switched to a <a href="https://thetvdb.com/subscribe">paid subscription model</a>
+and has released a new API which is <em>not</em> supported by MediaElch!</p>
+<p>This means that starting January 2021, scraping from TheTvDb using
+MediaElch <em>will</em> fail.</p>
+<p>Whether we integrate their new APIv4 or not has not been decided, yet.
+But if you are interested, please let us know!  Just leave a comment in one of
+the forums mentioned below.</p>
+<h2 id="bugfixes--small-improvements">Bugfixes &amp; Small Improvements</h2>
+<p>Thanks to all users that reported issues, we were able to make MediaElch more
+user friendly.</p>
+<p>For example a TMDb ID field is now available in the user interface for movies
+and you are able to filter movies by this ID. New placeholders have been
+added to the renamer and exporter. You can now use random screenshots as
+movie&rsquo;s backdrop/fanart.</p>
+<p>More bugfixes and small improvements can be found in our <a href="https://mediaelch.github.io/mediaelch-doc/release-notes.html">changelog</a>.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>There are some known issues.  We will fix them in the near future.</p>
+<ul>
+<li>The custom TV scraper may have issues with loading episodes details from
+other sources than TMDb.</li>
+<li>The TMDb scraper does not load certain episode details like IDs when you
+load multiple episodes at once.</li>
+</ul>
 <h2 id="where-can-i-download-mediaelch">Where can I download MediaElch?</h2>
 <p>Stable releases can be downloaded from <a href="https://mediaelch.github.io/mediaelch-doc/download.html">https://mediaelch.github.io/mediaelch-doc/download.html</a>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).</p>
@@ -153,8 +189,10 @@ For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (
 <li>[German] <a href="https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1">https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1</a></li>
 </ul>
 <p>If you find a bug, please open an issue on <a href="https://github.com/Komet/MediaElch/issues">https://github.com/Komet/MediaElch/issues</a></p>
-<h2 id="changelog">Changelog</h2>
-<p>Check out the full changelog at <a href="https://mediaelch.github.io/mediaelch-doc/release-notes.html">https://mediaelch.github.io/mediaelch-doc/release-notes.html</a></p>
+<h2 id="can-i-contribute">Can I contribute?</h2>
+<p>Yes! Every kind of help is welcome. You can translate MediaElch or develop and
+fix some bugs if you know C++.
+If you find any bugs, please report them on GitHub.</p>
 
       </div>
 
@@ -172,10 +210,6 @@ For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (
         
         
           
-            <li>
-              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/">MediaElch 2.8.0 - Coridian</a>
-            </li>
-          
         
           
             <li>
@@ -189,6 +223,10 @@ For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (
             </li>
           
         
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/">MediaElch 2.6.2 - Ferenginar</a>
+            </li>
           
         
           
