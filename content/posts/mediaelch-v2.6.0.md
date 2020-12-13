@@ -46,7 +46,7 @@ If you find a bug, please open an issue on https://github.com/Komet/MediaElch/is
 
 ## Can I contribute?
 Yes! Every kind of help is welcome. You can translate MediaElch or develop and fix some bugs if you know C++.
-If you find any bugs, please report them on GitHub or here.
+If you find any bugs, please report them on GitHub.
 
 Check out the full changelog at https://mediaelch.github.io/mediaelch-doc/release-notes.html#ferenginar-2019-01-06
 
