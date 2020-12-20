@@ -6,10 +6,22 @@
     <description>Recent content on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MediaElch 2.8.2 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/</guid>
+      <description>The next version 2.8.2 is here! Only a week after v2.8.0 was released.
+What&amp;rsquo;s new? This version fixes a few regressions that needed to be fixed as soon as possible.
+Fix Regressions Directories in the BluRay directory format had their BACKUP and STREAM folder recognized as movies. This regression is now fixed.
+We also reverted a language-detection change. Users reported that MediaElch did not run in their operating system&amp;rsquo;s language.</description>
+    </item>
     
     <item>
       <title>MediaElch 2.8.0 - Coridian</title>
