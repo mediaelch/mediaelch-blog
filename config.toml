@@ -75,3 +75,6 @@ pygmentscodefencesguesssyntax = true
         name = "GitHub"
         weight = 3
         url = "https://github.com/Komet/MediaElch"
+
+[markup.goldmark.renderer]
+unsafe = true
