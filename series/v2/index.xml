@@ -6,10 +6,22 @@
     <description>Recent content in v2 on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mediaelch.github.io/mediaelch-blog/series/v2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MediaElch 2.8.4 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/</guid>
+      <description>The next version 2.8.4 is here! This is mostly a bugfix release but there are a few improvements and one new feature as well.
+What&amp;rsquo;s new? This version fixes a few regressions and fixes some scraper issues due to changes on the metadata/image provider&amp;rsquo;s end.
+MediaElch now has an experimental CSV exporter! Find out how you can use it in the sections below.
+Fix Regressions and other Bugs You may have noticed that opening the &amp;ldquo;image dialog&amp;rdquo;-e.</description>
+    </item>
     
     <item>
       <title>MediaElch 2.8.2 - Coridian</title>

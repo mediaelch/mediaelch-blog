@@ -10,27 +10,27 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MediaElch 2.6.6 - Ferenginar"/>
-<meta name="twitter:description" content="New bugfix release of MediaElch."/>
+<meta name="twitter:title" content="MediaElch 2.8.4 - Coridian"/>
+<meta name="twitter:description" content="New release of MediaElch."/>
 
-    <meta property="og:title" content="MediaElch 2.6.6 - Ferenginar" />
-<meta property="og:description" content="New bugfix release of MediaElch." />
+    <meta property="og:title" content="MediaElch 2.8.4 - Coridian" />
+<meta property="og:description" content="New release of MediaElch." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/" />
-<meta property="article:published_time" content="2020-04-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-04-18T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/" />
+<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/" />
+<meta property="article:published_time" content="2021-01-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-09T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/" />
 
 
 
     
-      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/">
+      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/">
     
     <title>
-  MediaElch 2.6.6 - Ferenginar · Blog | MediaElch
+  MediaElch 2.8.4 - Coridian · Blog | MediaElch
 </title>
 
     
-      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/">
+      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -94,19 +94,19 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">MediaElch 2.6.6 - Ferenginar</h1>
+          <h1 class="title">MediaElch 2.8.4 - Coridian</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-04-18T00:00:00Z'>
-                April 18, 2020
+              <time datetime='2021-01-09T00:00:00Z'>
+                January 9, 2021
               </time>
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2 minutes read
+              3 minutes read
             </span>
           </div>
           <div class="categories">
@@ -118,43 +118,54 @@
       </header>
 
       <div>
-        <p>The next stable version 2.6.6 is here!</p>
+        <p>The next version 2.8.4 is here! This is mostly a bugfix release but there are a few
+improvements and one new feature as well.</p>
 <h2 id="whats-new">What&rsquo;s new?</h2>
-<p>Two months since the last stable release, this one is a <em>huge</em> bugfix release.</p>
-<h2 id="better-actor-images-from-imdb">Better Actor Images from IMDb</h2>
-<p>Due to a change on IMDB&rsquo;s site, images of actors only had a resolution of 32×44px.
-The scraper now loads each actor&rsquo;s IMDb page and scrapes the image in high
-resolution of about 600×1000px. This also means that it will take longer to
-scrape a movie with actors from IMDb.</p>
-<h2 id="more-languages-for-tmdb">More languages for TMDb</h2>
-<p>The dropdown menu for TMDb when scraping movies now lists <em>a lot</em> more languages
-than previous versions. We updated the list to match the list of officially
-supported languages by TMDb.
-Language codes have not yet been translated to other languages than English
-and German. If you want to help and translate MediaElch into other languages,
-have a look at <a href="https://mediaelch.github.io/mediaelch-doc/contributing/translations.html">our documentation</a>.</p>
-<h2 id="fixes-for-windows">Fixes for Windows</h2>
-<p>Version 2.6.0 had many internal changes but also introduced many Windows related
-issues. That happened because MediaElch sometimes used &ldquo;normalized&rdquo; paths with
-forward slashes (&quot;/&quot;) and sometimes backslashes (&quot;\&quot;) as they are used on Windows.
-This lead to many bugs, for example that the TV show section <em>always</em> reloaded
-<em>all</em> TV shows from disk or that concerts were not scanned. We also updated Qt
-to version 5.14.2 which fixed some Drag &amp; Drop issues. <a href="https://www.qt.io/">Qt</a> is the user
-interface framework that MediaElch builds upon.</p>
-<h2 id="internal-changes">Internal Changes</h2>
-<p>This version has only few internal changes. We focused on fixing existing bugs
-and wanted to avoid new ones that could be introduced by huge internal changes
-which are planned for the next versions.</p>
-<h2 id="whats-next">What&rsquo;s next?</h2>
-<p>We will continue to improve MediaElch. The TV and movie scrapers will be refactored
-and decoupled from the UI to make it possible to introduce a command line interface
-for MediaElch in the future. Also, a often requested feature is a new TV show
-scraper like TMDb since users reported that TheTvDb has been unreliable in the
-past two months.</p>
+<p>This version fixes a few regressions and fixes some scraper issues due to changes on
+the metadata/image provider&rsquo;s end.</p>
+<p>MediaElch now has an experimental CSV exporter! Find out how you can use it in the sections below.</p>
+<h2 id="fix-regressions-and-other-bugs">Fix Regressions and other Bugs</h2>
+<p>You may have noticed that opening the &ldquo;image dialog&rdquo;-e.g. by clicking a movie&rsquo;s poster&ndash;led to an
+immediate network error message.  This was a bug. When the image dialog was opened, we enqueued
+some downloads twice and some were aborted immediately which led to the error message.</p>
+<p>If you tried to use movie sets, you have have noticed that you cannot add a movie to a set.
+The &ldquo;Add&rdquo; button simply did not work.  This is now fixed as well.</p>
+<p>There are more bugfixes so we suggest to update to the latest release.</p>
+<h2 id="csv-export">CSV Export</h2>
+<p>Often requested, a CSV export is added.  This feature is experimental and cannot be reached through the UI, yet.
+You can open it by using the shortcut <kbd>Ctrl+Shift+E</kbd> (<kbd>⌘+⇧+E</kbd> on macOS).</p>
+<p>When the CSV export is finalized, we will add it to the UI.  Until then, only those who read our
+changelogs and blog posts know of this. ;-)</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.4/MediaElch_v2.8.4_CSV_Export.png" alt="MediaElch TVmaze ID"></p>
+<h2 id="tvmaze">TVmaze</h2>
+<p>v2.8.2 introduced the TVmaze ID, v2.8.4 now brings a new TV scraper: TVmaze!
+Not all features are supported but it may be worth to check it out!</p>
+<h3 id="other-changes-to-mediaelch">Other Changes to MediaElch</h3>
+<p>There are other useful changes that you may like. On macOS for example, MediaElch
+no longer uses the discrete GPU!
+This will save some of your battery&rsquo;s energy on MacBooks.</p>
+<p>MediaElch now also adds a <code>&lt;generator&gt;</code> tag to all NFO files to indicate that they were
+generated by MediaElch.  This is meant to help moderators on the Kodi.tv forum.  It will also
+be used in the future to hold data that isn&rsquo;t supported by Kodi but MediaElch, i.e. more
+meta data.</p>
+<p>We also added IMDb and TMDb ID fields to the concerts view. We improved some of MediaElch&rsquo;s defaults
+and improved our filename sanitizer in the renamer to remove leading dots as they indicate hidden
+files on Linux and macOS.</p>
+<p>We removed support for Kodi v16 NFO files.  Kodi v16 was released in 2016.
+Please update to the latest release.
+MediaElch can still read old NFOs but does not generate them anymore.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>There are some known issues that were not fixed in v2.8.4.
+We will fix them in the near future.</p>
+<ul>
+<li>The custom TV scraper may have issues with loading episodes details from
+other sources than TMDb.</li>
+<li>The TMDb scraper does not load certain episode details like IDs when you
+load multiple episodes at once.</li>
+</ul>
 <h2 id="where-can-i-download-mediaelch">Where can I download MediaElch?</h2>
 <p>Stable releases can be downloaded from <a href="https://mediaelch.github.io/mediaelch-doc/download.html">https://mediaelch.github.io/mediaelch-doc/download.html</a>
-For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).
-For Windows we also provide a Chocolatey package.</p>
+For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).</p>
 <h2 id="where-can-i-get-help">Where can I get help?</h2>
 <p>For general question use Kodi forums, e.g.</p>
 <ul>
@@ -162,8 +173,10 @@ For Windows we also provide a Chocolatey package.</p>
 <li>[German] <a href="https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1">https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1</a></li>
 </ul>
 <p>If you find a bug, please open an issue on <a href="https://github.com/Komet/MediaElch/issues">https://github.com/Komet/MediaElch/issues</a></p>
-<h2 id="changelog">Changelog</h2>
-<p>Check out the full changelog at <a href="https://mediaelch.github.io/mediaelch-doc/release-notes.html">https://mediaelch.github.io/mediaelch-doc/release-notes.html</a></p>
+<h2 id="can-i-contribute">Can I contribute?</h2>
+<p>Yes! Every kind of help is welcome. You can translate MediaElch or develop and
+fix some bugs if you know C++.  Python knowledge is welcome, too!<br>
+If you find any bugs, please report them on GitHub.</p>
 
       </div>
 
@@ -181,10 +194,6 @@ For Windows we also provide a Chocolatey package.</p>
         
         
           
-            <li>
-              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/">MediaElch 2.8.4 - Coridian</a>
-            </li>
-          
         
           
             <li>
@@ -198,6 +207,10 @@ For Windows we also provide a Chocolatey package.</p>
             </li>
           
         
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/">MediaElch 2.6.6 - Ferenginar</a>
+            </li>
           
         
           
