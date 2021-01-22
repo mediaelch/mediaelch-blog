@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MediaElch 2.8.6 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/</guid>
+      <description>The next version 2.8.6 is here! This is a bugfix release without any major internal changes. As we plan some internal changes, we want to publish a new stable version before doing so.
+What&amp;rsquo;s new? This version fixes a few regressions and some other minor issues.
+Known Issues There are some known issues that were not fixed in v2.8.6. We will fix them in the near future.
+ The custom TV scraper may have issues with loading episodes details from other sources than TMDb.</description>
+    </item>
     
     <item>
       <title>MediaElch 2.8.4 - Coridian</title>
