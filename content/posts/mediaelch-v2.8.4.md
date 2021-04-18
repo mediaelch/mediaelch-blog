@@ -36,7 +36,7 @@ You can open it by using the shortcut <kbd>Ctrl+Shift+E</kbd> (<kbd>⌘+⇧+E</k
 When the CSV export is finalized, we will add it to the UI.  Until then, only those who read our
 changelogs and blog posts know of this. ;-)
 
-![MediaElch TVmaze ID](/images/releases/v2.8.4/MediaElch_v2.8.4_CSV_Export.png)
+![CSV Export](/images/releases/v2.8.4/MediaElch_v2.8.4_CSV_Export.png)
 
 ## TVmaze
 
