@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="MediaElch">
+    <meta name="description" content="Media Manager for Kodi">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MediaElch 2.8.8 - Coridian"/>
+<meta name="twitter:description" content="New release of MediaElch."/>
+
+    <meta property="og:title" content="MediaElch 2.8.8 - Coridian" />
+<meta property="og:description" content="New release of MediaElch." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/" />
+<meta property="article:published_time" content="2021-04-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-04-26T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/" />
+
+
+
+    
+      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/">
+    
+    <title>
+  MediaElch 2.8.8 - Coridian · Blog | MediaElch
+</title>
+
+    
+      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://mediaelch.github.io/mediaelch-blog/css/coder.min.ad3c3e3048bb17a6e647d994b8d6615a9060ed40979062acbd9bbb9afec4ef8f.css" integrity="sha256-rTw&#43;MEi7F6bmR9mUuNZhWpBg7UCXkGKsvZu7mv7E748=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://mediaelch.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://mediaelch.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.64.0" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://mediaelch.github.io/mediaelch-blog/">
+      Blog | MediaElch
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://mediaelch.github.io/mediaelch-doc/about.html">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://mediaelch.github.io/mediaelch-doc/about.html">Documentation</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://mediaelch.github.io/mediaelch-blog/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://github.com/Komet/MediaElch">GitHub</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">MediaElch 2.8.8 - Coridian</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2021-04-26T00:00:00Z'>
+                April 26, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              4 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="https://mediaelch.github.io/mediaelch-blog/categories/release/">Release</a></div>
+
+          
+        </div>
+      </header>
+
+      <div>
+        <p>The next version 2.8.8 is here! This is a bugfix release with some minor internal changes
+and a few new features.</p>
+<h2 id="whats-new">What&rsquo;s new?</h2>
+<p>This version fixes a few bugs and also fixes some user interface issues.</p>
+<h3 id="multiple-ratings">Multiple Ratings</h3>
+<p>Kodi has been supporting multiple ratings for a few years.
+Even though MediaElch was able to handle multiple ratings internally, there was no option
+for modifying them in the user interface.  This new version has added a table widget which
+lists all ratings for a movie.  The same works for TV shows.</p>
+<p>You can add, remove and modify each rating. There are a few pre-defined rating sources
+such as &ldquo;TheTvDb&rdquo;, &ldquo;TMDb&rdquo; and more.  But you can use any string as rating source.</p>
+<p><a href="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Multiple_Ratings.png">Multiple ratings in MediaElch</a></p>
+<h3 id="quick-open-for-movies">&ldquo;Quick Open&rdquo; for movies</h3>
+<p>MediaElch has a new experimental feature, which we call &ldquo;Quick Open Menu&rdquo;.
+You can open it by clicking <kbd>Ctrl+O</kbd> (<kbd>⌘+O</kbd> on macOS).</p>
+<p>This menu can be used for fast access to movies.  It supports a fuzzy search
+and selecting a movie takes you to the movie&rsquo;s detail view.</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Quick_Open.png" alt="Quick Open widget"></p>
+<h3 id="csv-export">CSV Export</h3>
+<p>Since v2.8.4, MediaElch has a CSV exporter.  This exporter was previously only
+reachable through a shortcut <kbd>Ctrl+⇧Shift+E</kbd> (<kbd>⌘+⇧Shift+E</kbd> on macOS).</p>
+<p>This version now has a dropdown menu that makes it easier to discover and use the CSV exporter.</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Export_CSV.png" alt="New GUI CSV export option"></p>
+<h3 id="user-interface-improvements">User Interface Improvements</h3>
+<p>We have fixed a few user interface bugs. For example, on macOS, the &ldquo;new&rdquo;-icon
+did not properly display its count number.
+Furthermore, we improved it on Linux and Windows as well.
+The more digits, the smaller the number so that it always fits into the red icon.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Old</th>
+<th align="center">New</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Movie_Count_Old.png" alt="Movie count - old"></td>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Movie_Count_New.png" alt="Movie count - new"></td>
+</tr>
+<tr>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_TV_Show_Count_Old.png" alt="TV show count - old"></td>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_TV_Show_Count_New.png" alt="TV show count - new"></td>
+</tr>
+</tbody>
+</table>
+<p>The movie list has got two more columns: &ldquo;Subtitles&rdquo; and &ldquo;Tags&rdquo;.
+We took the opportunity to move to SVG based icons and replaced the old media status icons by new ones.
+The new icons are <a href="https://invent.kde.org/frameworks/breeze-icons">KDE Breeze icons</a>,
+licensed under <a href="https://invent.kde.org/frameworks/breeze-icons/-/blob/master/icons/LICENSE">LGPL-v3-only</a>.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Old</th>
+<th align="center">New</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Icons_Old.png" alt="Old media status icons"></td>
+<td align="center"><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Icons_New.png" alt="New media status icons"></td>
+</tr>
+</tbody>
+</table>
+<p>On Windows, the spacing between these icons was high. Higher than necessary.
+We have fixed the spacing on all systems.</p>
+<h3 id="named-seasons">Named Seasons</h3>
+<p>MediaElch now supports named seasons in the user interface.
+Click on a season and change the name in the detail view on the right side.</p>
+<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.8.8/MediaElch_v2.8.8_Named_Seasons.png" alt="Named Season"></p>
+<h3 id="other-changes-to-mediaelch">Other Changes to MediaElch</h3>
+<p>There are other useful changes that you may like.
+We have finally fixed MediaElch&rsquo;s user interface language on non-English systems.</p>
+<p>Due to a bug in our GUI framework, &ldquo;English&rdquo; was selected even though the system was e.g. in German.</p>
+<p>You can now disable folders in MediaElch&rsquo;s settings.
+This may make it easier to switch between different folders.</p>
+<p>There are also some internal changes and improvements.
+For example, MediaElch&rsquo;s translation binaries are no longer part of the repository.
+Packager&rsquo;s need to ensure that <code>lrelease</code> is part of the build environment because
+it is needed for creating MediaElch&rsquo;s translations.</p>
+<p>We have also improved MediaElch&rsquo;s movie file searcher.  Depending on the library size,
+the improvement may range from a few percent to three times as fast.</p>
+<p>Attention to all packagers: MediaElch now requires the Qt SVG module!
+Please also note that MediaElch no longer requires the Qt Script module.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>There are some known issues that were not fixed in v2.8.8.
+We will fix them in the near future.</p>
+<ul>
+<li>The custom TV scraper may have issues with loading episodes details from
+other sources than TMDb.</li>
+<li>The TMDb scraper does not load certain episode details like IDs when you
+load multiple episodes at once.</li>
+</ul>
+<h2 id="where-can-i-download-mediaelch">Where can I download MediaElch?</h2>
+<p>Stable releases can be downloaded from <a href="https://mediaelch.github.io/mediaelch-doc/download.html">https://mediaelch.github.io/mediaelch-doc/download.html</a>
+For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).</p>
+<h2 id="where-can-i-get-help">Where can I get help?</h2>
+<p>For general question use Kodi forums, e.g.</p>
+<ul>
+<li>[English] <a href="https://forum.kodi.tv/showthread.php?tid=136333">https://forum.kodi.tv/showthread.php?tid=136333</a></li>
+<li>[German] <a href="https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1">https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1</a></li>
+</ul>
+<p>If you find a bug, please open an issue on <a href="https://github.com/Komet/MediaElch/issues">https://github.com/Komet/MediaElch/issues</a></p>
+<h2 id="can-i-contribute">Can I contribute?</h2>
+<p>Yes! Every kind of help is welcome. You can translate MediaElch or develop and
+fix some bugs if you know C++.  Python knowledge is welcome, too!<br>
+If you find any bugs, please report them on GitHub.</p>
+
+      </div>
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in v2</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/">MediaElch 2.8.6 - Coridian</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/">MediaElch 2.8.4 - Coridian</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/">MediaElch 2.8.2 - Coridian</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/">MediaElch 2.8.0 - Coridian</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/">MediaElch 2.6.6 - Ferenginar</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        <div id="commento"></div>
+<script src="https://mediaelch.github.io/mediaelch-blog/js/commento.js"></script>
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2021
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/mediaelch/mediaelch-blog-theme/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

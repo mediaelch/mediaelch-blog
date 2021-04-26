@@ -6,7 +6,22 @@
     <description>Recent content on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MediaElch 2.8.8 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/</guid>
+      <description>The next version 2.8.8 is here! This is a bugfix release with some minor internal changes and a few new features.
+What&amp;rsquo;s new? This version fixes a few bugs and also fixes some user interface issues.
+Multiple Ratings Kodi has been supporting multiple ratings for a few years. Even though MediaElch was able to handle multiple ratings internally, there was no option for modifying them in the user interface. This new version has added a table widget which lists all ratings for a movie.</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.8.6 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/</link>
