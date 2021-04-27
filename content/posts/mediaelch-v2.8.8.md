@@ -97,6 +97,13 @@ the improvement may range from a few percent to three times as fast.
 Attention to all packagers: MediaElch now requires the Qt SVG module!
 Please also note that MediaElch no longer requires the Qt Script module.
 
+## Update 2021-04-26
+
+Users reported that the Windows version of MediaElch _always_ opened a terminal (command line window).
+This was not intended.  We therefore updated the Windows version.
+We did _not_ increase the patch version.  The version is still 2.8.8 but the date
+in the filename changed from 2021-04-26 to 2021-04-27.
+
 ## Known Issues
 
 There are some known issues that were not fixed in v2.8.8.
