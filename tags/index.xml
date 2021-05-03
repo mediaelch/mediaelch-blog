@@ -5,10 +5,6 @@
     <link>https://mediaelch.github.io/mediaelch-blog/tags/</link>
     <description>Recent content in Tags on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://mediaelch.github.io/mediaelch-blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://mediaelch.github.io/mediaelch-blog/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
