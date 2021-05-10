@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.8.12 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/</guid>
+      <description>The next version 2.8.12 is here! This is a bugfix release only. There were two crashes in v2.8.10 (and v2.8.8) that needed fixing as soon as possible.
+What&amp;rsquo;s new? Only some bugfixes. First, we fixed three crashes that happened when movies were reloaded. One of which existed even prior to v2.8.8 when the file searcher was aborted.
+Furthermore, we have fixed the AllMusic review scraping. We didn&amp;rsquo;t properly load the AllMusic ID from MusicBrainz (with the Universal Music Scraper).</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.8.10 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.10/</link>
