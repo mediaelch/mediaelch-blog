@@ -1,29 +1,26 @@
 +++
-date = "2021-05-03"
-title = "MediaElch 2.8.10 - Coridian"
+date = "2021-05-10"
+title = "MediaElch 2.8.12 - Coridian"
 description = "New release of MediaElch."
-slug = "mediaelch-v2.8.10"
+slug = "mediaelch-v2.8.12"
 categories = ["Release"]
 series = ["v2"]
 +++
 
-The next version 2.8.10 is here! This is a bugfix release only. There were some issues with
-v2.8.8 that needed fixing.
+The next version 2.8.12 is here! This is a bugfix release only.
+There were two crashes in v2.8.10 (and v2.8.8) that needed fixing as soon as possible.
 
 ## What's new?
 
-Only some bugfixes. The media status column for clearart and thumbs for TV shows is fixed.
-Furthermore, the window size was hard-coded.
+Only some bugfixes. First, we fixed three crashes that happened when movies were reloaded.
+One of which existed even prior to v2.8.8 when the file searcher was aborted.
 
-We also exchanged the navigation bar icons with KDE Breeze icons.
-
-| Old | New |
-|:---:|:---:|
-| ![Old navbar icons](/images/releases/v2.8.10/MediaElch_v2.8.10_Navbar_Old.png) | ![New navbar icons](/images/releases/v2.8.10/MediaElch_v2.8.10_Navbar_New.png) |
+Furthermore, we have fixed the AllMusic review scraping.  We didn't properly load the AllMusic ID
+from MusicBrainz (with the Universal Music Scraper).
 
 ## Known Issues
 
-There are some known issues that were not fixed in v2.8.10.
+There are some known issues that were not fixed in v2.8.12.
 We will fix them in the near future.
 
  - The custom TV scraper may have issues with loading episodes details from
