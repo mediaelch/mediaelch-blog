@@ -41,7 +41,7 @@ with the Kodi NFO format which is why the next version will need some changes in
 to (multiple) ratings and so on.
 
 ## Where can I download MediaElch?
-Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html
+Stable releases can be downloaded from <https://mediaelch.github.io/mediaelch-doc/download.html>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).
 
 ## Where can I get help?
