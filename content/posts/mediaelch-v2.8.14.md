@@ -1,22 +1,41 @@
 +++
-date = "2021-01-22"
-title = "MediaElch 2.8.6 - Coridian"
+date = "2022-05-06"
+title = "MediaElch 2.8.14 - Coridian"
 description = "New release of MediaElch."
-slug = "mediaelch-v2.8.6"
+slug = "mediaelch-v2.8.14"
 categories = ["Release"]
 series = ["v2"]
 +++
 
-The next version 2.8.6 is here! This is a bugfix release without any major internal changes.
-As we plan some internal changes, we want to publish a new stable version before doing so.
+The next version 2.8.14 is here! This is a bugfix release only.
 
 ## What's new?
 
-This version fixes a few regressions and some other minor issues.
+Many smalelr bugfixes as well as a fix for a serious crash in the
+"Concerts" section.
+
+Furthermore, support for TheTvDb was _removed_. We decided to take this step
+after the changes to their API and business model last year.
+We recommend to use TMDb for TV shows and episodes.
+
+We updated the list of known video file extensions and added support for
+`<seasonName>` in the TV show renamer.
+
+Most other changes are internal only. 
+
+### Internal Changes
+
+MediaElch took a huge step forward to supporting Qt6.  You can now build
+MediaElch with QuaZip 1.1 and Qt6 using CMake.
+MediaElch still supports QuaZip 0.9.  Maintainers of MediaElch packages
+should use the CMake/QMake option `USE_EXTERN_QUAZIP` if they want to use the
+system's QuaZip version. Tests are no longer build by default.
+Add `-DENABLE_TESTS=ON` to the CMake configuration if you want to build
+MediaElch's tests.
 
 ## Known Issues
 
-There are some known issues that were not fixed in v2.8.6.
+There are some known issues that were not fixed in v2.8.14.
 We will fix them in the near future.
 
  - The custom TV scraper may have issues with loading episodes details from

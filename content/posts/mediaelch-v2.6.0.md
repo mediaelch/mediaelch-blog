@@ -33,7 +33,7 @@ We will continue to improve MediaElch. We will further refactor the code base
 of MediaElch to allow easier collaboration by new developers.
 
 ## Where can I download MediaElch?
-Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html
+Stable releases can be downloaded from <https://mediaelch.github.io/mediaelch-doc/download.html>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm) (finally!).
 
 ## Where can I get help?

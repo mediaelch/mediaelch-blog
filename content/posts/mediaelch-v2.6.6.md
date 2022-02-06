@@ -48,7 +48,7 @@ scraper like TMDb since users reported that TheTvDb has been unreliable in the
 past two months.
 
 ## Where can I download MediaElch?
-Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html
+Stable releases can be downloaded from <https://mediaelch.github.io/mediaelch-doc/download.html>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).
 For Windows we also provide a Chocolatey package.
 

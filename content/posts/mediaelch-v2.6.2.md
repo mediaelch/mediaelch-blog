@@ -43,7 +43,7 @@ We will continue to improve MediaElch. No huge features are planned at the momen
 The next version will finally use TheTVDb API v2 which didn't make it into this version.
 
 ## Where can I download MediaElch?
-Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html
+Stable releases can be downloaded from <https://mediaelch.github.io/mediaelch-doc/download.html>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).
 
 ## Where can I get help?
