@@ -10,27 +10,27 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MediaElch 2.6.2 - Ferenginar"/>
+<meta name="twitter:title" content="MediaElch 2.8.14 - Coridian"/>
 <meta name="twitter:description" content="New release of MediaElch."/>
 
-    <meta property="og:title" content="MediaElch 2.6.2 - Ferenginar" />
+    <meta property="og:title" content="MediaElch 2.8.14 - Coridian" />
 <meta property="og:description" content="New release of MediaElch." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/" />
-<meta property="article:published_time" content="2019-09-13T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-09-13T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.10/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/" />
+<meta property="og:url" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/" />
+<meta property="article:published_time" content="2022-02-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-06T00:00:00+00:00" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.10/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/" /><meta property="og:see_also" content="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/" />
 
 
 
     
-      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/">
+      <base href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/">
     
     <title>
-  MediaElch 2.6.2 - Ferenginar · Blog | MediaElch
+  MediaElch 2.8.14 - Coridian · Blog | MediaElch
 </title>
 
     
-      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/">
+      <link rel="canonical" href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -98,14 +98,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">MediaElch 2.6.2 - Ferenginar</h1>
+          <h1 class="title">MediaElch 2.8.14 - Coridian</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2019-09-13T00:00:00Z'>
-                September 13, 2019
+              <time datetime='2022-02-06T00:00:00Z'>
+                February 6, 2022
               </time>
             </span>
             <span class="reading-time">
@@ -122,31 +122,33 @@
       </header>
 
       <div>
-        <p>The next stable version 2.6.2 is finally here!</p>
+        <p>The next version 2.8.14 is here! This is a bugfix release only.</p>
 <h2 id="whats-new">What&rsquo;s new?</h2>
-<p>This version fixes multiple bugs and many small improvements.
-A lot of race-conditions and possible crashes were fixed so that MediaElch
-should now run without issues.</p>
-<p>MediaElch now also as a blog! You can find it at:
-<a href="https://mediaelch.github.io/mediaelch-blog/posts/">https://mediaelch.github.io/mediaelch-blog/posts/</a></p>
-<h2 id="support-of-multiple-kodi-versions">Support of multiple Kodi versions</h2>
-<p>You can now choose the Kodi Version for which MediaElch should generate NFO files.
-The previous versions were not compatible with Kodi v17 and v18 which has now been fixed.
-MediaElch now uses the new ID format (<code>&lt;uniqueid&gt;</code>) and has updated other tags.</p>
-<p>You can choose Kodi&rsquo;s version in MediaElch&rsquo;s settings:</p>
-<p><img src="https://mediaelch.github.io/mediaelch-blog/images/releases/v2.6.2/MediaElch_v2.6.2_Kodi_Version.png" alt="MediaElch on KDE Breeze Dark"></p>
-<h2 id="internal-changes">Internal Changes</h2>
-<p><em>Attention developers</em>: We now use <a href="https://cmake.org/">CMake</a> as our primary build system!
-We also switched from <code>QList&lt;T&gt;</code> to <code>QVector&lt;T&gt;</code> as our default container type.
-This made some painful bugs visible which this version fix.
-Google&rsquo;s address sanitizer is now used to build and test MediaElch and we recommend using it.</p>
-<p>Package maintainers can now use the <code>DISABLE_UPDATER</code> and <code>USE_EXTERN_QUAZIP</code> build flags
-to distribute MediaElch in a way that is compatible with packaging guidelines.</p>
-<p>We now also have more and better documentation for new contributors.<br>
-You can find it at <a href="https://github.com/Komet/MediaElch/tree/master/docs/contributing">https://github.com/Komet/MediaElch/tree/master/docs/contributing</a></p>
-<h2 id="whats-next">What&rsquo;s next?</h2>
-<p>We will continue to improve MediaElch. No huge features are planned at the moment.
-The next version will finally use TheTVDb API v2 which didn&rsquo;t make it into this version.</p>
+<p>Many smalelr bugfixes as well as a fix for a serious crash in the
+&ldquo;Concerts&rdquo; section.</p>
+<p>Furthermore, support for TheTvDb was <em>removed</em>. We decided to take this step
+after the changes to their API and business model last year.
+We recommend to use TMDb for TV shows and episodes.</p>
+<p>We updated the list of known video file extensions and added support for
+<code>&lt;seasonName&gt;</code> in the TV show renamer.</p>
+<p>Most other changes are internal only.</p>
+<h3 id="internal-changes">Internal Changes</h3>
+<p>MediaElch took a huge step forward to supporting Qt6.  You can now build
+MediaElch with QuaZip 1.1 and Qt6 using CMake.
+MediaElch still supports QuaZip 0.9.  Maintainers of MediaElch packages
+should use the CMake/QMake option <code>USE_EXTERN_QUAZIP</code> if they want to use the
+system&rsquo;s QuaZip version. Tests are no longer build by default.
+Add <code>-DENABLE_TESTS=ON</code> to the CMake configuration if you want to build
+MediaElch&rsquo;s tests.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>There are some known issues that were not fixed in v2.8.14.
+We will fix them in the near future.</p>
+<ul>
+<li>The custom TV scraper may have issues with loading episodes details from
+other sources than TMDb.</li>
+<li>The TMDb scraper does not load certain episode details like IDs when you
+load multiple episodes at once.</li>
+</ul>
 <h2 id="where-can-i-download-mediaelch">Where can I download MediaElch?</h2>
 <p>Stable releases can be downloaded from <a href="https://mediaelch.github.io/mediaelch-doc/download.html">https://mediaelch.github.io/mediaelch-doc/download.html</a>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).</p>
@@ -157,8 +159,10 @@ For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (
 <li>[German] <a href="https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1">https://www.kodinerds.net/index.php/Thread/14560-MediaElch-MediaManager-for-Mac-Linux-Win/?pageNo=1</a></li>
 </ul>
 <p>If you find a bug, please open an issue on <a href="https://github.com/Komet/MediaElch/issues">https://github.com/Komet/MediaElch/issues</a></p>
-<h2 id="changelog">Changelog</h2>
-<p>Check out the full changelog at <a href="https://mediaelch.github.io/mediaelch-doc/release-notes.html">https://mediaelch.github.io/mediaelch-doc/release-notes.html</a></p>
+<h2 id="can-i-contribute">Can I contribute?</h2>
+<p>Yes! Every kind of help is welcome. You can translate MediaElch or develop and
+fix some bugs if you know C++.  Python knowledge is welcome, too!<br>
+If you find any bugs, please report them on GitHub.</p>
 
       </div>
 
@@ -175,10 +179,6 @@ For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (
         <ul>
         
         
-          
-            <li>
-              <a href="https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/">MediaElch 2.8.14 - Coridian</a>
-            </li>
           
         
           

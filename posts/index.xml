@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.8.14 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/</guid>
+      <description>The next version 2.8.14 is here! This is a bugfix release only.
+What&amp;rsquo;s new? Many smalelr bugfixes as well as a fix for a serious crash in the &amp;ldquo;Concerts&amp;rdquo; section.
+Furthermore, support for TheTvDb was removed. We decided to take this step after the changes to their API and business model last year. We recommend to use TMDb for TV shows and episodes.
+We updated the list of known video file extensions and added support for &amp;lt;seasonName&amp;gt; in the TV show renamer.</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.8.12 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/</link>
