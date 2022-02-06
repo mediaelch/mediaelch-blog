@@ -1,5 +1,5 @@
 +++
-date = "2022-05-06"
+date = "2022-02-06"
 title = "MediaElch 2.8.14 - Coridian"
 description = "New release of MediaElch."
 slug = "mediaelch-v2.8.14"
