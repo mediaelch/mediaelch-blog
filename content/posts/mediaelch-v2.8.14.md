@@ -11,7 +11,7 @@ The next version 2.8.14 is here! This is a bugfix release only.
 
 ## What's new?
 
-Many smalelr bugfixes as well as a fix for a serious crash in the
+Many smaller bugfixes as well as a fix for a serious crash in the
 "Concerts" section.
 
 Furthermore, support for TheTvDb was _removed_. We decided to take this step
