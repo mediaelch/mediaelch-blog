@@ -6,7 +6,19 @@
     <description>Recent content in v2 on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/series/v2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/series/v2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.8.18 - Coridian</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.18/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.18/</guid>
+      <description>The next version 2.8.18 is here! This is a bugfix release with some minor improvements as well.
+For package managers: We now fully support Qt6!
+What&amp;rsquo;s new? Mostly bugfixes such as scraper-updates, crash-fixes or Kodi NFO updates. But we also have some new features!
+For CSV exports, new fields were added such as &amp;ldquo;type&amp;rdquo; which may be useful for post-processing of CSV files. TMDb for concerts now loads a concert&amp;rsquo;s vote-count as well as its original title and TvMaze loads episodes&#39; ratings.</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.8.16 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.16/</link>
