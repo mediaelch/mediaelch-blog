@@ -6,7 +6,18 @@
     <description>Recent content in Release on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/categories/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/categories/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.10.2 - Benzar</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.2/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.2/</guid>
+      <description>The next version 2.10.2 is here! And we have some cool new features as well!
+What&amp;rsquo;s new? We&amp;rsquo;ve fixed many bugs, including things such as unsorted language lists, dark and light theme issues, or scrapers that failed to load some details.
+Besides the regular bug fixes, some small new features made it into this release as well: A new TV scraper for &amp;ldquo;fernsehserien.de&amp;rdquo; has been added. It is a German-only website for TV shows, seasons and episodes.</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.10.0 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.0/</link>
