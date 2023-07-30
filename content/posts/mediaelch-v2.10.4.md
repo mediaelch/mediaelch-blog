@@ -25,9 +25,6 @@ release as well: The movie search window now has a preview feature!
 Stable releases can be downloaded from <https://mediaelch.github.io/mediaelch-doc/download.html>
 For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.rpm).
 
-Please note that the macOS `*.dmg` file for macOS 11 or later is about 180MiB.
-In the next release, it will be down to 70MiB again.
-
 ## Where can I get help?
 
 For general question use Kodi forums, e.g.
