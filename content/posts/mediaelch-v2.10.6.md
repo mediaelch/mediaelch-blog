@@ -1,26 +1,38 @@
 +++
-date = "2023-07-30"
-title = "MediaElch 2.10.4 - Benzar"
+date = "2023-12-03"
+title = "MediaElch 2.10.6 - Benzar"
 description = "New release of MediaElch."
-slug = "mediaelch-v2.10.4"
+slug = "mediaelch-v2.10.6"
 categories = ["Release"]
 series = ["v2"]
 +++
 
-The next version 2.10.4 is here!
+The next version 2.10.6 is here!
 
 
 ## What's new?
 
-Mostly bug fixes, including things such as broken scrapers, UI glitches,
+Mostly bug fixes, including things such as poor performance, UI glitches,
 and some other bugs.
 
-Besides the regular bug fixes, one small new feature made it into this
-release as well: The movie search window now has a preview feature!
+In version 2.10.4, there was a performance issue that made
+MediaElch unresponsive in certain situations, especially on
+systems with poor disk-speed (e.g. using HDDs instead of SSDs).
 
-![MediaElch's movie search preview](/images/releases/v2.10.4/MediaElch_v2.10.4_Movie_Search_Preview.png)
+Changing the main-window theme no longer requires restarting MediaElch.
+
+I fixed some issues with the dark main-window theme, where bright
+colors remained in previous versions.  And the Linux AppImage finally
+displays icons properly.
+
+When loading images, we now sort them according to your preferred
+language.
+
+I'd also like to thank all contributors, including all the people
+that reported bugs and other issues!
 
 For more, please refer to our [changelog].
+
 
 ## Where can I download MediaElch?
 

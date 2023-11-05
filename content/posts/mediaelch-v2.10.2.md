@@ -23,6 +23,8 @@ Most changes were internal: MediaElch now requires CMake 3.15 or later for
 building.  And we no longer depend on QML/QtQuick, meaning the package sizes
 for macOS and Windows have decreased by a few MiB.
 
+For more, please refer to our [changelog].
+
 ## Notes for Package Maintainers
 
 If you package MediaElch for some platforms, please note following changes:
