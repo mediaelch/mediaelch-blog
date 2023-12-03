@@ -6,7 +6,20 @@
     <description>Recent content on Blog | MediaElch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.10.6 - Benzar</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.6/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.6/</guid>
+      <description>The next version 2.10.6 is here!
+What&amp;rsquo;s new? Mostly bug fixes, including things such as poor performance, UI glitches, and some other bugs.
+In version 2.10.4, there was a performance issue that made MediaElch unresponsive in certain situations, especially on systems with poor disk-speed (e.g. using HDDs instead of SSDs).
+Changing the main-window theme no longer requires restarting MediaElch.
+I fixed some issues with the dark main-window theme, where bright colors remained in previous versions.</description>
+    </item>
+    
     <item>
       <title>MediaElch 2.10.4 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.4/</link>
@@ -16,7 +29,8 @@
       <description>The next version 2.10.4 is here!
 What&amp;rsquo;s new? Mostly bug fixes, including things such as broken scrapers, UI glitches, and some other bugs.
 Besides the regular bug fixes, one small new feature made it into this release as well: The movie search window now has a preview feature!
-Where can I download MediaElch? Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html For Linux distributions we provide repositories for Ubuntu (.deb) and openSUSE (.</description>
+For more, please refer to our changelog.
+Where can I download MediaElch? Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html For Linux distributions we provide repositories for Ubuntu (.</description>
     </item>
     
     <item>
