@@ -33,3 +33,7 @@ Any help is welcome! :-)
 
 If you add images (such as screenshots), minimize them using
 [Trimage](https://trimage.org/).
+
+## Notes
+
+Does not work with latest `Hugo`.  Tested with Hugo v0.120.4 extended edition.
