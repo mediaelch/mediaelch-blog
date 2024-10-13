@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>V1 on Blog | MediaElch</title>
+    <title>v1 on Blog | MediaElch</title>
     <link>https://mediaelch.github.io/mediaelch-blog/series/v1/</link>
-    <description>Recent content in V1 on Blog | MediaElch</description>
-    <generator>Hugo</generator>
+    <description>Recent content in v1 on Blog | MediaElch</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Aug 2013 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mediaelch.github.io/mediaelch-blog/series/v1/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,9 @@
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</link>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</guid>
-      <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.&#xA;But there are also three things I want to show you:&#xA;Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
+      <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.
+But there are also three things I want to show you:
+Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
     </item>
     <item>
       <title>HTML Export</title>
