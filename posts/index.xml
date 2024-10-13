@@ -4,337 +4,219 @@
     <title>Posts on Blog | MediaElch</title>
     <link>https://mediaelch.github.io/mediaelch-blog/posts/</link>
     <description>Recent content in Posts on Blog | MediaElch</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mediaelch.github.io/mediaelch-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaElch 2.12.0</title>
+      <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.12.0/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.12.0/</guid>
+      <description>The next version 2.12.0 is here!&#xA;What&amp;rsquo;s new? It&amp;rsquo;s been nearly a year since the last MediaElch release. The reason is that I, the current maintainer, don&amp;rsquo;t find the time anymore to implement new features. That&amp;rsquo;s why I&amp;rsquo;m limiting myself to bug fixes and smaller features.&#xA;This release is mostly about bug fixes again. IMDb and other sites have changed, and hence MediaElch needed to update its scrapers. But a few new features have made it as well: There is now a &amp;ldquo;TV Show Link&amp;rdquo; field for movies.</description>
+    </item>
     <item>
       <title>MediaElch 2.10.6 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.6/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.6/</guid>
-      <description>The next version 2.10.6 is here!
-What&amp;rsquo;s new? Mostly bug fixes, including things such as poor performance, UI glitches, and some other bugs.
-In version 2.10.4, there was a performance issue that made MediaElch unresponsive in certain situations, especially on systems with poor disk-speed (e.g. using HDDs instead of SSDs).
-Changing the main-window theme no longer requires restarting MediaElch.
-I fixed some issues with the dark main-window theme, where bright colors remained in previous versions.</description>
+      <description>The next version 2.10.6 is here!&#xA;What&amp;rsquo;s new? Mostly bug fixes, including things such as poor performance, UI glitches, and some other bugs.&#xA;In version 2.10.4, there was a performance issue that made MediaElch unresponsive in certain situations, especially on systems with poor disk-speed (e.g. using HDDs instead of SSDs).&#xA;Changing the main-window theme no longer requires restarting MediaElch.&#xA;I fixed some issues with the dark main-window theme, where bright colors remained in previous versions.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.10.4 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.4/</link>
       <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.4/</guid>
-      <description>The next version 2.10.4 is here!
-What&amp;rsquo;s new? Mostly bug fixes, including things such as broken scrapers, UI glitches, and some other bugs.
-Besides the regular bug fixes, one small new feature made it into this release as well: The movie search window now has a preview feature!
-For more, please refer to our changelog.
-Where can I download MediaElch? Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html For Linux distributions we provide repositories for Ubuntu (.</description>
+      <description>The next version 2.10.4 is here!&#xA;What&amp;rsquo;s new? Mostly bug fixes, including things such as broken scrapers, UI glitches, and some other bugs.&#xA;Besides the regular bug fixes, one small new feature made it into this release as well: The movie search window now has a preview feature!&#xA;For more, please refer to our changelog.&#xA;Where can I download MediaElch? Stable releases can be downloaded from https://mediaelch.github.io/mediaelch-doc/download.html For Linux distributions we provide repositories for Ubuntu (.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.10.2 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.2/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.2/</guid>
-      <description>The next version 2.10.2 is here! And we have some cool new features as well!
-What&amp;rsquo;s new? We&amp;rsquo;ve fixed many bugs, including things such as unsorted language lists, dark and light theme issues, or scrapers that failed to load some details.
-Besides the regular bug fixes, some small new features made it into this release as well: A new TV scraper for &amp;ldquo;fernsehserien.de&amp;rdquo; has been added. It is a German-only website for TV shows, seasons and episodes.</description>
+      <description>The next version 2.10.2 is here! And we have some cool new features as well!&#xA;What&amp;rsquo;s new? We&amp;rsquo;ve fixed many bugs, including things such as unsorted language lists, dark and light theme issues, or scrapers that failed to load some details.&#xA;Besides the regular bug fixes, some small new features made it into this release as well: A new TV scraper for &amp;ldquo;fernsehserien.de&amp;rdquo; has been added. It is a German-only website for TV shows, seasons and episodes.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.10.0 - Benzar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.0/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.10.0/</guid>
-      <description>The next version 2.10.0 is here! And we have some cool new features as well!
-What&amp;rsquo;s new? We&amp;rsquo;ve fixed many bugs, including crashes while starting MediaElch. But we also have new features!
-MediaElch finally has a dark theme for its main window! You can change it in MediaElch&amp;rsquo;s settings. On macOS, we try to automatically determine what theme you want.
-Furthermore, MediaElch&amp;rsquo;s TV show search now has a preview feature: Similar preview windows will come for movies and concerts soon as well.</description>
+      <description>The next version 2.10.0 is here! And we have some cool new features as well!&#xA;What&amp;rsquo;s new? We&amp;rsquo;ve fixed many bugs, including crashes while starting MediaElch. But we also have new features!&#xA;MediaElch finally has a dark theme for its main window! You can change it in MediaElch&amp;rsquo;s settings. On macOS, we try to automatically determine what theme you want.&#xA;Furthermore, MediaElch&amp;rsquo;s TV show search now has a preview feature: Similar preview windows will come for movies and concerts soon as well.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.18 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.18/</link>
       <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.18/</guid>
-      <description>The next version 2.8.18 is here! This is a bugfix release with some minor improvements as well.
-For package managers: We now fully support Qt6!
-What&amp;rsquo;s new? Mostly bugfixes such as scraper-updates, crash-fixes or Kodi NFO updates. But we also have some new features!
-For CSV exports, new fields were added such as &amp;ldquo;type&amp;rdquo; which may be useful for post-processing of CSV files. TMDb for concerts now loads a concert&amp;rsquo;s vote-count as well as its original title and TvMaze loads episodes&#39; ratings.</description>
+      <description>The next version 2.8.18 is here! This is a bugfix release with some minor improvements as well.&#xA;For package managers: We now fully support Qt6!&#xA;What&amp;rsquo;s new? Mostly bugfixes such as scraper-updates, crash-fixes or Kodi NFO updates. But we also have some new features!&#xA;For CSV exports, new fields were added such as &amp;ldquo;type&amp;rdquo; which may be useful for post-processing of CSV files. TMDb for concerts now loads a concert&amp;rsquo;s vote-count as well as its original title and TvMaze loads episodes&amp;rsquo; ratings.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.16 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.16/</link>
       <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.16/</guid>
-      <description>The next version 2.8.16 is here! This is a bugfix release only.
-What&amp;rsquo;s new? Many smaller bugfixes as well as a fix for a serious crash in the &amp;ldquo;Movies&amp;rdquo; section when downloading many movies at once.
-There are also few UI improvements, e.g. the white text on white background was fixed for the movie section.
-Furthermore, more default sort tokens were added (for more languages). If you want to change them, you need to add an advancedsettings.</description>
+      <description>The next version 2.8.16 is here! This is a bugfix release only.&#xA;What&amp;rsquo;s new? Many smaller bugfixes as well as a fix for a serious crash in the &amp;ldquo;Movies&amp;rdquo; section when downloading many movies at once.&#xA;There are also few UI improvements, e.g. the white text on white background was fixed for the movie section.&#xA;Furthermore, more default sort tokens were added (for more languages). If you want to change them, you need to add an advancedsettings.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.14 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.14/</guid>
-      <description>The next version 2.8.14 is here! This is a bugfix release only.
-What&amp;rsquo;s new? Many smaller bugfixes as well as a fix for a serious crash in the &amp;ldquo;Concerts&amp;rdquo; section.
-Furthermore, support for TheTvDb was removed. We decided to take this step after the changes to their API and business model last year. We recommend to use TMDb for TV shows and episodes.
-We updated the list of known video file extensions and added support for &amp;lt;seasonName&amp;gt; in the TV show renamer.</description>
+      <description>The next version 2.8.14 is here! This is a bugfix release only.&#xA;What&amp;rsquo;s new? Many smaller bugfixes as well as a fix for a serious crash in the &amp;ldquo;Concerts&amp;rdquo; section.&#xA;Furthermore, support for TheTvDb was removed. We decided to take this step after the changes to their API and business model last year. We recommend to use TMDb for TV shows and episodes.&#xA;We updated the list of known video file extensions and added support for &amp;lt;seasonName&amp;gt; in the TV show renamer.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.12 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.12/</guid>
-      <description>The next version 2.8.12 is here! This is a bugfix release only. There were two crashes in v2.8.10 (and v2.8.8) that needed fixing as soon as possible.
-What&amp;rsquo;s new? Only some bugfixes. First, we fixed three crashes that happened when movies were reloaded. One of which existed even prior to v2.8.8 when the file searcher was aborted.
-Furthermore, we have fixed the AllMusic review scraping. We didn&amp;rsquo;t properly load the AllMusic ID from MusicBrainz (with the Universal Music Scraper).</description>
+      <description>The next version 2.8.12 is here! This is a bugfix release only. There were two crashes in v2.8.10 (and v2.8.8) that needed fixing as soon as possible.&#xA;What&amp;rsquo;s new? Only some bugfixes. First, we fixed three crashes that happened when movies were reloaded. One of which existed even prior to v2.8.8 when the file searcher was aborted.&#xA;Furthermore, we have fixed the AllMusic review scraping. We didn&amp;rsquo;t properly load the AllMusic ID from MusicBrainz (with the Universal Music Scraper).</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.10 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.10/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.10/</guid>
-      <description>The next version 2.8.10 is here! This is a bugfix release only. There were some issues with v2.8.8 that needed fixing.
-What&amp;rsquo;s new? Only some bugfixes. The media status column for clearart and thumbs for TV shows is fixed. Furthermore, the window size was hard-coded.
-We also exchanged the navigation bar icons with KDE Breeze icons.
-   Old New          Known Issues There are some known issues that were not fixed in v2.</description>
+      <description>The next version 2.8.10 is here! This is a bugfix release only. There were some issues with v2.8.8 that needed fixing.&#xA;What&amp;rsquo;s new? Only some bugfixes. The media status column for clearart and thumbs for TV shows is fixed. Furthermore, the window size was hard-coded.&#xA;We also exchanged the navigation bar icons with KDE Breeze icons.&#xA;Old New Known Issues There are some known issues that were not fixed in v2.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.8 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.8/</guid>
-      <description>The next version 2.8.8 is here! This is a bugfix release with some minor internal changes and a few new features.
-What&amp;rsquo;s new? This version fixes a few bugs and also fixes some user interface issues.
-Multiple Ratings Kodi has been supporting multiple ratings for a few years. Even though MediaElch was able to handle multiple ratings internally, there was no option for modifying them in the user interface. This new version has added a table widget which lists all ratings for a movie.</description>
+      <description>The next version 2.8.8 is here! This is a bugfix release with some minor internal changes and a few new features.&#xA;What&amp;rsquo;s new? This version fixes a few bugs and also fixes some user interface issues.&#xA;Multiple Ratings Kodi has been supporting multiple ratings for a few years. Even though MediaElch was able to handle multiple ratings internally, there was no option for modifying them in the user interface. This new version has added a table widget which lists all ratings for a movie.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.6 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.6/</guid>
-      <description>The next version 2.8.6 is here! This is a bugfix release without any major internal changes. As we plan some internal changes, we want to publish a new stable version before doing so.
-What&amp;rsquo;s new? This version fixes a few regressions and some other minor issues.
-Known Issues There are some known issues that were not fixed in v2.8.6. We will fix them in the near future.
- The custom TV scraper may have issues with loading episodes details from other sources than TMDb.</description>
+      <description>The next version 2.8.6 is here! This is a bugfix release without any major internal changes. As we plan some internal changes, we want to publish a new stable version before doing so.&#xA;What&amp;rsquo;s new? This version fixes a few regressions and some other minor issues.&#xA;Known Issues There are some known issues that were not fixed in v2.8.6. We will fix them in the near future.&#xA;The custom TV scraper may have issues with loading episodes details from other sources than TMDb.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.4 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/</link>
       <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.4/</guid>
-      <description>The next version 2.8.4 is here! This is mostly a bugfix release but there are a few improvements and one new feature as well.
-What&amp;rsquo;s new? This version fixes a few regressions and fixes some scraper issues due to changes on the metadata/image provider&amp;rsquo;s end.
-MediaElch now has an experimental CSV exporter! Find out how you can use it in the sections below.
-Fix Regressions and other Bugs You may have noticed that opening the &amp;ldquo;image dialog&amp;rdquo;-e.</description>
+      <description>The next version 2.8.4 is here! This is mostly a bugfix release but there are a few improvements and one new feature as well.&#xA;What&amp;rsquo;s new? This version fixes a few regressions and fixes some scraper issues due to changes on the metadata/image provider&amp;rsquo;s end.&#xA;MediaElch now has an experimental CSV exporter! Find out how you can use it in the sections below.&#xA;Fix Regressions and other Bugs You may have noticed that opening the &amp;ldquo;image dialog&amp;rdquo;-e.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.2 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.2/</guid>
-      <description>The next version 2.8.2 is here! Only a week after v2.8.0 was released.
-What&amp;rsquo;s new? This version fixes a few regressions that needed to be fixed as soon as possible.
-Fix Regressions Directories in the BluRay directory format had their BACKUP and STREAM folder recognized as movies. This regression is now fixed.
-We also reverted a language-detection change. Users reported that MediaElch did not run in their operating system&amp;rsquo;s language.</description>
+      <description>The next version 2.8.2 is here! Only a week after v2.8.0 was released.&#xA;What&amp;rsquo;s new? This version fixes a few regressions that needed to be fixed as soon as possible.&#xA;Fix Regressions Directories in the BluRay directory format had their BACKUP and STREAM folder recognized as movies. This regression is now fixed.&#xA;We also reverted a language-detection change. Users reported that MediaElch did not run in their operating system&amp;rsquo;s language.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.8.0 - Coridian</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.8.0/</guid>
-      <description>The next version 2.8.0 named &amp;ldquo;Coridian&amp;rdquo; is finally here!
-What&amp;rsquo;s new? This version fixes many bugs, has multiple small improvements to the user interface and and has a massively improved TV scraper.
-TV Scrapers MediaElch&amp;rsquo;s TV scrapers have been rewritten from the bottom. This makes it possible to distinguish episode details from TV show details. Don&amp;rsquo;t want to load the episode&amp;rsquo;s overview but the show&amp;rsquo;s overview? Now it&amp;rsquo;s possible!
-For meta information, MediaElch no longer depends on TheTvDb and it&amp;rsquo;s now easier to add new TV scrapers.</description>
+      <description>The next version 2.8.0 named &amp;ldquo;Coridian&amp;rdquo; is finally here!&#xA;What&amp;rsquo;s new? This version fixes many bugs, has multiple small improvements to the user interface and and has a massively improved TV scraper.&#xA;TV Scrapers MediaElch&amp;rsquo;s TV scrapers have been rewritten from the bottom. This makes it possible to distinguish episode details from TV show details. Don&amp;rsquo;t want to load the episode&amp;rsquo;s overview but the show&amp;rsquo;s overview? Now it&amp;rsquo;s possible!&#xA;For meta information, MediaElch no longer depends on TheTvDb and it&amp;rsquo;s now easier to add new TV scrapers.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.6.6 - Ferenginar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.6/</guid>
-      <description>The next stable version 2.6.6 is here!
-What&amp;rsquo;s new? Two months since the last stable release, this one is a huge bugfix release.
-Better Actor Images from IMDb Due to a change on IMDB&amp;rsquo;s site, images of actors only had a resolution of 32×44px. The scraper now loads each actor&amp;rsquo;s IMDb page and scrapes the image in high resolution of about 600×1000px. This also means that it will take longer to scrape a movie with actors from IMDb.</description>
+      <description>The next stable version 2.6.6 is here!&#xA;What&amp;rsquo;s new? Two months since the last stable release, this one is a huge bugfix release.&#xA;Better Actor Images from IMDb Due to a change on IMDB&amp;rsquo;s site, images of actors only had a resolution of 32×44px. The scraper now loads each actor&amp;rsquo;s IMDb page and scrapes the image in high resolution of about 600×1000px. This also means that it will take longer to scrape a movie with actors from IMDb.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.6.4 - Ferenginar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.4/</guid>
-      <description>The next stable version 2.6.4 is finally here!
-What&amp;rsquo;s new? Four months since the last release, this version brings a lot of bug fixes and big improvements in error handling and reporting. Furthermore, we finally use the TheTvDb API v2!
-Better Error Reporting If an error occurs while searching for a movie or scraping a TV show, a message box containing the error code and message will be shown instead of just silently failing.</description>
+      <description>The next stable version 2.6.4 is finally here!&#xA;What&amp;rsquo;s new? Four months since the last release, this version brings a lot of bug fixes and big improvements in error handling and reporting. Furthermore, we finally use the TheTvDb API v2!&#xA;Better Error Reporting If an error occurs while searching for a movie or scraping a TV show, a message box containing the error code and message will be shown instead of just silently failing.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.6.2 - Ferenginar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.2/</guid>
-      <description>The next stable version 2.6.2 is finally here!
-What&amp;rsquo;s new? This version fixes multiple bugs and many small improvements. A lot of race-conditions and possible crashes were fixed so that MediaElch should now run without issues.
-MediaElch now also as a blog! You can find it at: https://mediaelch.github.io/mediaelch-blog/posts/
-Support of multiple Kodi versions You can now choose the Kodi Version for which MediaElch should generate NFO files. The previous versions were not compatible with Kodi v17 and v18 which has now been fixed.</description>
+      <description>The next stable version 2.6.2 is finally here!&#xA;What&amp;rsquo;s new? This version fixes multiple bugs and many small improvements. A lot of race-conditions and possible crashes were fixed so that MediaElch should now run without issues.&#xA;MediaElch now also as a blog! You can find it at: https://mediaelch.github.io/mediaelch-blog/posts/&#xA;Support of multiple Kodi versions You can now choose the Kodi Version for which MediaElch should generate NFO files. The previous versions were not compatible with Kodi v17 and v18 which has now been fixed.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.6.0 - Ferenginar</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.0/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.6.0/</guid>
-      <description>The next version 2.6.0 named &amp;ldquo;Ferenginar&amp;rdquo; is finally here!
-What&amp;rsquo;s new? This version fixes more than 20 bugs, has multiple small improvements and adds various features. MediaElch now uses &amp;ldquo;https&amp;rdquo; for all scrapers that support it. A few new audio and video codecs are now recognized as well. We now support renaming concerts, creating subdirectories and detecting duplicate movies, updated/fixed some XML fields for Kodi and much more.
-MediaElch now has an official documentation which you can find at: https://mediaelch.</description>
+      <description>The next version 2.6.0 named &amp;ldquo;Ferenginar&amp;rdquo; is finally here!&#xA;What&amp;rsquo;s new? This version fixes more than 20 bugs, has multiple small improvements and adds various features. MediaElch now uses &amp;ldquo;https&amp;rdquo; for all scrapers that support it. A few new audio and video codecs are now recognized as well. We now support renaming concerts, creating subdirectories and detecting duplicate movies, updated/fixed some XML fields for Kodi and much more.&#xA;MediaElch now has an official documentation which you can find at: https://mediaelch.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.4.1</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.1/</guid>
-      <description>MediaElch 2.4.1 is ready for download!
-A complete list of all improvements and bugfixes can be found at the downloads page.
-As usual I’d like to thank all donators and translators! If you would also like to support the development of MediaElch you can help with a little donation.</description>
+      <description>MediaElch 2.4.1 is ready for download!&#xA;A complete list of all improvements and bugfixes can be found at the downloads page.&#xA;As usual I’d like to thank all donators and translators! If you would also like to support the development of MediaElch you can help with a little donation.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.4 – Talax</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.4.0/</guid>
-      <description>MediaElch 2.4 is ready and brings a lot of improvements and new features.
-TV Shows One of the most important new features in MediaElch 2.4 is bulk/mass scraping of tv shows and episodes. MediaElch is now able to scrape multiple tv shows at once. There is also a new IMDB scraper for tv shows. You can even setup your custom tv scraper in the settings: Load ratings and votes from IMDB and everything else from TheTVDB with a single click.</description>
+      <description>MediaElch 2.4 is ready and brings a lot of improvements and new features.&#xA;TV Shows One of the most important new features in MediaElch 2.4 is bulk/mass scraping of tv shows and episodes. MediaElch is now able to scrape multiple tv shows at once. There is also a new IMDB scraper for tv shows. You can even setup your custom tv scraper in the settings: Load ratings and votes from IMDB and everything else from TheTVDB with a single click.</description>
     </item>
-    
     <item>
       <title>MediaElch - &#34;The next big thing&#34;</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</link>
       <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2-the-next-big-thing/</guid>
-      <description>While MediaElch 2.4 is just around the corner and brings a lot of improvements and some nice new features (have a look at the downloads page for a list of changes), I’m already thinking about the next big feature which will find its way into MediaElch.
-Right now I have three things in mind:
-1. Music file tagging and renaming MediaElch is already able to scrape information and images of artists and albums.</description>
+      <description>While MediaElch 2.4 is just around the corner and brings a lot of improvements and some nice new features (have a look at the downloads page for a list of changes), I’m already thinking about the next big feature which will find its way into MediaElch.&#xA;Right now I have three things in mind:&#xA;1. Music file tagging and renaming MediaElch is already able to scrape information and images of artists and albums.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.3.2 – Denobula</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</link>
       <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.3.2/</guid>
-      <description>The next MediaElch update is available for download.
-Many smaller improvements and bugfixes have made it into this version as well as coverlib.com as source for album covers and booklets. Booklets provided there are in most cases scans of a double side in a single image. MediaElch now has an option to cut this covers in two pieces (just click on the little scissors below the image).
-My thanks go out to all the supporters of MediaElch!</description>
+      <description>The next MediaElch update is available for download.&#xA;Many smaller improvements and bugfixes have made it into this version as well as coverlib.com as source for album covers and booklets. Booklets provided there are in most cases scans of a double side in a single image. MediaElch now has an option to cut this covers in two pieces (just click on the little scissors below the image).&#xA;My thanks go out to all the supporters of MediaElch!</description>
     </item>
-    
     <item>
       <title>MediaElch 2.2.2</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.2/</guid>
-      <description>A shiny new MediaElch release is available for download.
-It looks like music scraping is working really fine but it still needs some tuning. This release fixes some little bugs in conjunction with music scraping.
-Thanks to all supporters of MediaElch. Stay tuned, there’s more to come!</description>
+      <description>A shiny new MediaElch release is available for download.&#xA;It looks like music scraping is working really fine but it still needs some tuning. This release fixes some little bugs in conjunction with music scraping.&#xA;Thanks to all supporters of MediaElch. Stay tuned, there’s more to come!</description>
     </item>
-    
     <item>
       <title>MediaElch 2.2 – Sphere Builder</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</link>
       <pubDate>Fri, 23 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.2.0/</guid>
-      <description>I know it’s been a (too) long time since the last MediaElch release. I was quite busy last year setting up my own business and wanted the next release to contain a often requested feature. I finally found some time during the holidays and the last weeks to finish it: Music library management and scraping!
-MediaElch now allows you to scrape your artists and albums. Although it’s not completely done and may contain some little glitches it is already usable.</description>
+      <description>I know it’s been a (too) long time since the last MediaElch release. I was quite busy last year setting up my own business and wanted the next release to contain a often requested feature. I finally found some time during the holidays and the last weeks to finish it: Music library management and scraping!&#xA;MediaElch now allows you to scrape your artists and albums. Although it’s not completely done and may contain some little glitches it is already usable.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.1.2</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.2/</guid>
-      <description>MediaElch 2.1.2 fixes some bugs which appeared in MediaElch 2.1 and 2.1.1. Especially the bug that dialogs showed up outside the desktops on Windows was fixed.
-Some minor improvements were also integrated: Stream details are now available in export templates and new filters for audio qualities and channels were added.
-Movie, tv show and concert lists show up the number of items now.
-My thanks go out to all donators and supporters of MediaElch!</description>
+      <description>MediaElch 2.1.2 fixes some bugs which appeared in MediaElch 2.1 and 2.1.1. Especially the bug that dialogs showed up outside the desktops on Windows was fixed.&#xA;Some minor improvements were also integrated: Stream details are now available in export templates and new filters for audio qualities and channels were added.&#xA;Movie, tv show and concert lists show up the number of items now.&#xA;My thanks go out to all donators and supporters of MediaElch!</description>
     </item>
-    
     <item>
       <title>MediaElch 2.1 - Trill &amp; Community Forums</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</link>
       <pubDate>Sun, 16 Mar 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.1.0/</guid>
-      <description>MediaElch 2.1 is now ready for downloads. There are some bugfixes, small improvements and also some new features in this version. A complete list of all changes can be found in the download area.
-Labels LabelsMovies can now be marked with a colored label. These labels can also be filtered.
-Make MKV MediaElchs import function was improved to use MakeMKV (MakeMKV needs to be installed separately). You are now able to import BluRays and DVDs directly into your collection.</description>
+      <description>MediaElch 2.1 is now ready for downloads. There are some bugfixes, small improvements and also some new features in this version. A complete list of all changes can be found in the download area.&#xA;Labels LabelsMovies can now be marked with a colored label. These labels can also be filtered.&#xA;Make MKV MediaElchs import function was improved to use MakeMKV (MakeMKV needs to be installed separately). You are now able to import BluRays and DVDs directly into your collection.</description>
     </item>
-    
     <item>
       <title>MediaElch 2.0 – Risa</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</link>
       <pubDate>Mon, 28 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v2.0.0/</guid>
-      <description>MediaElch 2.0 is available for download. Among bugfixes and little improvements (have a look at the Changelog for a complete list) there are also some nice new features:
-Adult Scrapers One of the most requested features were adult scrapers in MediaElch. They are available now: AEBN, HotMovies and Adult DVD Empire can be used. These scrapers need to be enabled manually in the settings (Settings -&amp;gt; Scraper -&amp;gt; Adult Scrapers).</description>
+      <description>MediaElch 2.0 is available for download. Among bugfixes and little improvements (have a look at the Changelog for a complete list) there are also some nice new features:&#xA;Adult Scrapers One of the most requested features were adult scrapers in MediaElch. They are available now: AEBN, HotMovies and Adult DVD Empire can be used. These scrapers need to be enabled manually in the settings (Settings -&amp;gt; Scraper -&amp;gt; Adult Scrapers).</description>
     </item>
-    
     <item>
       <title>MediaElch 1.7 – Bajor</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</link>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1.7.0/</guid>
-      <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.
-But there are also three things I want to show you:
-Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
+      <description>This update took longer than expected… Some great new features were planned but I haven’t found the time to finish them and so Bajor is mainly a bugfix release. All changes can be found in the Changelog.&#xA;But there are also three things I want to show you:&#xA;Collection Export Starting with Bajor you can export your whole collection as HTML files. I’ve created a standard theme you can use already.</description>
     </item>
-    
     <item>
       <title>HTML Export</title>
       <link>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</link>
       <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/posts/mediaelch-v1-html-export/</guid>
       <description>The next version of MediaElch will have the option to export your whole library as html files. It will be possible to create your own export theme. As you can see in the screenshot I’m not a designer and there’s much room for improvement. It would be great if someone wants to create one or more themes for the export. The files are only plain html/css with some placeholders so you only need some knowledge of html/css :)</description>
     </item>
-    
   </channel>
 </rss>

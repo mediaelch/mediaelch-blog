@@ -4,17 +4,16 @@
     <title>Categories on Blog | MediaElch</title>
     <link>https://mediaelch.github.io/mediaelch-blog/categories/</link>
     <description>Recent content in Categories on Blog | MediaElch</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mediaelch.github.io/mediaelch-blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Release</title>
       <link>https://mediaelch.github.io/mediaelch-blog/categories/release/</link>
-      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://mediaelch.github.io/mediaelch-blog/categories/release/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

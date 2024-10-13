@@ -4,26 +4,23 @@
     <title>Series on Blog | MediaElch</title>
     <link>https://mediaelch.github.io/mediaelch-blog/series/</link>
     <description>Recent content in Series on Blog | MediaElch</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mediaelch.github.io/mediaelch-blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mediaelch.github.io/mediaelch-blog/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>v2</title>
+      <title>V2</title>
       <link>https://mediaelch.github.io/mediaelch-blog/series/v2/</link>
-      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://mediaelch.github.io/mediaelch-blog/series/v2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>v1</title>
+      <title>V1</title>
       <link>https://mediaelch.github.io/mediaelch-blog/series/v1/</link>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://mediaelch.github.io/mediaelch-blog/series/v1/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
